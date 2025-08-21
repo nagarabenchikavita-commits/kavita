@@ -9,6 +9,7 @@ def printfactors(n):
     return countfactors, countcycles
 
 n = int(input("Enter number: "))
+#demo
 resfact, recycles = printfactors(n)
 
 print(f"\nThe count of factors of {n} is: {resfact}")
